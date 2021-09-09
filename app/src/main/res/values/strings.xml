@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">COVID</string>
+    <string name="detalheTeste">Test Detail</string>
+    <string name="registoTeste">Register a new Test</string>
+    <string name="localTeste">Test Location</string>
+    <string name="localTesteEx">Farmacy X</string>
+    <string name="localTesteErro">Test location cannot be empty!</string>
+    <string name="dataTeste">Test Date</string>
+    <string name="dataTesteEx">DD/MM/YYYY</string>
+    <string name="dataTesteErro">Test date cannot be empty!</string>
+    <string name="resultadoTeste">Test Result</string>
+    <string name="resultadoListaTeste">Result:\u0020</string>
+    <string name="temFotoListaTeste">Photo:\u0020</string>
+    <string name="resultadoTestePositivo">Positive</string>
+    <string name="resultadoTesteNegativo">Negative</string>
+    <string name="resultadoTesteErro">Test result cannot be empty!</string>
+    <string name="fotoTeste">Test Photo</string>
+    <string name="submeterRegisto">SUBMIT</string>
+    <string name="confirmados">CONFIRMED</string>
+    <string name="recuperados">RECOVERED</string>
+    <string name="mortes">DEATHS</string>
+    <string name="internados">HOSPITALIZED</string>
+    <string name="casosRegiao">Cases by Region</string>
+    <string name="casosTotais">Total Cases:\u0020</string>
+    <string name="casos24">Last 24 hours:\u0020</string>
+    <string name="tests">Tests</string>
+    <string name="localTesteShow">Location: \u0020</string>
+    <string name="dataTesteShow">Date: \u0020</string>
+    <string name="dataUpdate">LAST UPDATE:</string>
+    <string name="danger">(DANGER)</string>
+    <string name="NOdanger">(NO DANGER)</string>
+    <string name="contactosTitulo">CONTACTS</string>
+    <string name="listaTestesTitulo">Test List</string>
+    <string name="testeSubmetido">Test Submited!</string>
+    <string name="dias">DAYS</string>
+    <string name="ordenarLista">Sort by Date</string>
+    <string name="photo">OPEN PHOTO!</string>
+
+    <string name="norte">Norte</string>
+    <string name="centro">Centro</string>
+    <string name="LVT">Lisboa e Vale Do Tejo</string>
+    <string name="alentejo">Alentejo</string>
+    <string name="algarve">Algarve</string>
+    <string name="acores">Açores</string>
+    <string name="madeira">Madeira</string>
+
+    <string name="graficoConfirmados">Confirmed Chart</string>
+    <string name="graficoRecuperados">Recovered Chart</string>
+    <string name="graficoObitos">Deaths chart</string>
+    <string name="graficoInternados">New Hospitalized Chart</string>
+
+    <string name="contactoSNS24">+351 808 24 24 24</string>
+    <string name="contactoSeguSocial">+351 300 502 502</string>
+    <string name="contactoEmergenciaConsular01">+351 217 929 714</string>
+    <string name="contactoEmergenciaConsular02">+351 961 706 472</string>
+    <string name="websiteCovid">covid19.min-saude.pt</string>
+    <string name="emailCovidDuvidas">atendimento@SNS24.gov.pt</string>
+    <string name="emailEmerConsular">gec@mne.pt</string>
+    <string name="websiteLegislacaoCovid">dre.pt/legislacao-covid-19</string>
+
+    <string name="INFOcontactoSNS24">Line SNS 24 for screening symptoms and clarifying doubts about COVID-19</string>
+    <string name="INFOcontactoSeguSocial">Social Security Line for clarifications on family assistance, sickness benefits and quarantine</string>
+    <string name="INFOEmergenciaConsular">Consular Emergency Office</string>
+    <string name="INFOemailCovid">DGS platform for clarification on COVID-19</string>
+    <string name="INFOemailCovidDuvidas">SNS 24 channel for clarification of doubts.\nDo not use it for medical diagnosis</string>
+    <string name="INFOLegislacao">Area dedicated to pandemic legislation</string>
+
+    <string name="erroCamera">No Permissions</string>
+
+    <string name="semDados">No Data</string>
+    <string name="semFoto">No Photo!</string>
+    <string name="temFoto">It has a Photo!</string>
+
+    <string name="risco">RISK:</string>
+
+    <string name="muitobaixa">Very Low</string>
+    <string name="baixa">Low</string>
+    <string name="baixoModerado">Low to Moderate</string>
+    <string name="moderado">Moderate</string>
+    <string name="elevada">High</string>
+    <string name="muitoElevada">Very High</string>
+    <string name="extraElevada">Extremely High</string>
+
+
+
+
+    <!-- Drawer -->
+
+    <string name="dashboard">Dashboard</string>
+    <string name="registoteste">New Test</string>
+    <string name="listTest">List Tests</string>
+    <string name="drawer_graficos">Charts</string>
+    <string name="contactos">Contacts</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.graficos.GraficosFragment"
+    android:theme="@style/AppTheme">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/graficoConfirmados"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <me.ithebk.barchart.BarChart
+            android:id="@+id/bar_chart_Confirmados"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:bar_color="@color/teal_700"
+            app:bar_max_value="100"
+            app:bar_show_animation="true"
+            app:bar_show_auto_color="true"
+            app:bar_show_value="true"
+            app:bar_spaces="0dp"
+            app:bar_text_size="10sp"
+            app:bar_type="vertical"
+            app:bar_width="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/endDateC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="30sp"
+                android:gravity="center"
+                android:src="@drawable/seta" />
+
+            <TextView
+                android:id="@+id/startDateC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/graficoRecuperados"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <me.ithebk.barchart.BarChart
+            android:id="@+id/bar_chart_Recuperados"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:bar_color="@color/teal_700"
+            app:bar_max_value="100"
+            app:bar_show_animation="true"
+            app:bar_show_auto_color="true"
+            app:bar_show_value="true"
+            app:bar_spaces="0dp"
+            app:bar_text_size="10sp"
+            app:bar_type="vertical"
+            app:bar_width="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/endDateR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="30sp"
+                android:gravity="center"
+                android:src="@drawable/seta" />
+
+            <TextView
+                android:id="@+id/startDateR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/graficoObitos"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <me.ithebk.barchart.BarChart
+            android:id="@+id/bar_chart_Obitos"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:bar_color="@color/teal_700"
+            app:bar_max_value="100"
+            app:bar_show_animation="true"
+            app:bar_show_auto_color="true"
+            app:bar_show_value="true"
+            app:bar_spaces="0dp"
+            app:bar_text_size="10sp"
+            app:bar_type="vertical"
+            app:bar_width="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/endDateO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="30sp"
+                android:gravity="center"
+                android:src="@drawable/seta" />
+
+            <TextView
+                android:id="@+id/startDateO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/graficoInternados"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <me.ithebk.barchart.BarChart
+            android:id="@+id/bar_chart_Internados"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:bar_color="@color/teal_700"
+            app:bar_max_value="100"
+            app:bar_show_animation="true"
+            app:bar_show_auto_color="true"
+            app:bar_show_value="true"
+            app:bar_spaces="0dp"
+            app:bar_text_size="10sp"
+            app:bar_type="vertical"
+            app:bar_width="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/endDateI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="30sp"
+                android:gravity="center"
+                android:src="@drawable/seta" />
+
+            <TextView
+                android:id="@+id/startDateI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

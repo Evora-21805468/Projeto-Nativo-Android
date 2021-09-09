@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard"
+            />
+
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/ic_grafico"
+            android:title="@string/drawer_graficos"
+            />
+
+        <item
+            android:id="@+id/list_tests"
+            android:icon="@drawable/ic_list"
+            android:title="@string/listTest"
+            />
+
+        <item
+            android:id="@+id/nav_Test"
+            android:icon="@drawable/ic_test"
+            android:title="@string/registoTeste"
+            />
+        <item
+            android:id="@+id/nav_contactos"
+            android:icon="@drawable/ic_contactos"
+            android:title="@string/contactos"
+            />
+
+
+    </group>
+
+
+
+</menu>
